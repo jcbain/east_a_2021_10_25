@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+/* target both h1s and h2s */
+h1, h2 {
+  color: chartreuse;
+  background-color: turquoise;
+}
+
+/* target elements with an id of "main-content" */
+#main-content {
+  border: 5px dotted purple;
+  padding: 20px;
+}
+
+/* target h2s with a class of "alert" */
+h2.alert {
+  color: darkorange;
+}
+
+/* target all elements with a class of alert */
+.alert {
+  color: red;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+/* target all elements */
+#figure-wrapper figure {
+  border: 4px dashed goldenrod;
+  padding: 10px 20px;
+  margin: 30px;
+  width: 400px;
+}
+/* 
+h2 {
+  background-color: darksalmon;
+} */
